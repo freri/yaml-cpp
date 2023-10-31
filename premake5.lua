@@ -1,7 +1,7 @@
 project "yaml-cpp"
 	kind "StaticLib"
 	language "C++"
-	staticruntime "on"
+	staticruntime "off"
 	warnings "off"
 	defines "YAML_CPP_STATIC_DEFINE"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
